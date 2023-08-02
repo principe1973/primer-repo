@@ -11,7 +11,7 @@
 
 body{
     background: linear-gradient(to right, rgba(0, 0, 0, 0.4),rgb(0 0 0 /.3)),
-    url("/img/fondo-dia.jpg") no-repeat;
+    url(../img/fondo-dia.jpg) no-repeat;
     color: white;
     transition: 1.5s ease;
     background-size: cover;
@@ -31,7 +31,7 @@ body{
 
 .dark{
     background: linear-gradient(to right, rgba(0, 0, 0, 0.4),rgb(0 0 0 /.3)),
-    url("img/fondo-pantalla.jpeg") no-repeat;
+    url(../img/fondo-pantalla.jpeg) no-repeat;
     color: white;
     transition: 1.5s ease;
     background-size: cover;
@@ -97,7 +97,7 @@ nav ul li a:hover {
 
 .banner{
     background: linear-gradient(to right, rgba(59, 149, 233, 0.2),
-    rgba(29, 6, 235, 0.2)), url(/img/banner.jpg);
+    rgba(29, 6, 235, 0.2)), url(../img/banner.jpg);
     background-size: cover;
     background-position: center center;
     height: calc(100vh - 80px);
